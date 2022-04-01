@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Netlify]()
+- Solution URL: [GitHub](https://github.com/GrzywN/fylo-data-storage-component-master)
+- Live Site URL: [Netlify](https://polite-sfogliatella-1a8c23.netlify.app/)
 
 ## My process
 
