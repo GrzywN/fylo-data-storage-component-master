@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Karol Binkowski" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <main>
+      <div class="component">
+        <div class="component__menu">
+          <img src="./images/logo.svg" alt="Fylo" class="component__logo" />
+          <div class="component__icons">
+            <a href="#" class="component__icon-link">
+              <img src="./images/icon-document.svg" alt="" class="component__icon" />
+            </a>
+            <a href="#" class="component__icon-link">
+              <img src="./images/icon-folder.svg" alt="" class="component__icon" />
+            </a>
+            <a href="#" class="component__icon-link">
+              <img src="./images/icon-upload.svg" alt="" class="component__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="component__storage">
+          <p class="component__text">You’ve used <strong class="num-gb" data-val="815">0 GB</strong> of your storage</p>
+          <div class="component__bar-back">
+            <div class="component__bar-front" data-val="815"></div>
+          </div>
+          <div class="component__labels">
+            <p class="component__label">0 GB</p>
+            <p class="component__label">1000 GB</p>
+          </div>
+          <div class="component__gb-left">
+            <h2 class="component__gb-value num" data-val="185">0</h2>
+            <p class="component__gb-text">GB Left</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
