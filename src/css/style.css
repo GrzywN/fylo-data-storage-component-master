@@ -178,6 +178,7 @@ main {
   }
 
   .component {
+    margin-bottom: 21px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
